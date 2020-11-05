@@ -7,7 +7,7 @@ have identical proportions between candidates.
 ## Example
 
 The repo has [stats from Georgia taken from the NYTimes website](https://www.nytimes.com/interactive/2020/11/03/us/elections/results-georgia.html)
-at around 23:00 UTC on 4th November 2020.
+at around 00:30 UTC on 5th November 2020.
 They've been sanitised as a CSV file with the following columns:
 
 ```csv
@@ -24,7 +24,7 @@ This will output the conclusion
 
 ```json
 { 'candidate': 'Biden',
-  'gain': 94354}
+  'gain': 83053}
 ```
 
 which suggests _only_ that Biden will gain 94354 votes in the counties described in `georgia-votes.csv`.
