@@ -47,6 +47,16 @@ In both cases, the output was `,$1,$2,$3,$4,$5$6,$7$8`.
 
 I don't like it either.
 
+### JSON approach
+
+As NYTimes are updating their pages with huge (~200kB) JSON files, it is an option to simply
+
+```sh
+curl https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/state-page/georgia.json -o georgia.json
+```
+
+And process the data from there instead.
+
 ### Running your own
 
 If you have custom data in another CSV in the same format,
