@@ -13,7 +13,7 @@ Atkinson,Trump,47,R+45.2,87%,3155,2174
 Stewart,Biden,19,D+20.3,87%,1978,1455
 Baker,Trump,16,R+8.7,87%,1552,1110
 Floyd,Trump,42,R+42.9,88%,37914,27665
-Taliaferro,Biden,22,D+21.9,88%,927727
+Taliaferro,Biden,22,D+21.9,88%,927,727
 Cobb,Biden,13,D+2.2,89%,378130,307161
 DeKalb,Biden,67,D+62.9,89%,358805,311931
 Muscogee,Biden,24,D+18.5,89%,80216,66695
@@ -28,6 +28,7 @@ Glascock,Trump,80,R+78.9,91%,1566,1120
 Seminole,Trump,35,R+32.2,92%,3877,2624
 Talbot,Biden,21,D+24.8,92%,3519,2505
 Calhoun,Biden,15,D+17.2,92%,2193,1547
+Fulton,Biden,46,D+40.9,93%,476650,402449
 Douglas,Biden,25,D+10.7,93%,68715,57921
 Bacon,Trump,73,R+68.6,93%,4668,4087
 Hancock,Biden,44,D+51.9,93%,4162,3254
@@ -53,4 +54,4 @@ Pickens,Trump,66,R+68.8,98%,17113,10332
 McDuffie,Trump,19,R+18.7,98%,10451,8985
 Chattooga,Trump,62,R+58.8,98%,10041,7161
 Oglethorpe,Trump,39,R+41.9,98%,8126,6622
-Echols,Trump,76,R+72,98%,1439,1176 
+Echols,Trump,76,R+72,98%,1439,1176

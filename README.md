@@ -29,6 +29,24 @@ This will output the conclusion
 
 which suggests _only_ that Biden will gain 94354 votes in the counties described in `georgia-votes.csv`.
 
+### Sanitisation
+
+I sanitised a copy-and-paste from the website using a hasty Regex in a find-and-replace.
+
+```perl
+\s+(\w+)\s+\+(\d+)\s+([RD]\+\d+.\d)\s+\n(\d+%)\n+\s+(\d{1,3}),(\d{3})\s+(\d{1,3}),(\d{3})
+```
+
+and later upgraded to
+
+```perl
+\s*(\w+)\s*\+(\d+|\d+.\d+)\s*([RD]\+(?:\d+.\d|\d+|\d+.\d+))(?:\s|\n)*(\d+%)(?:\n|\s)*(\d{1,3})?,?(\d{3})\s+(\d{1,3})?,?(\d{3})
+```
+
+In both cases, the output was `,$1,$2,$3,$4,$5$6,$7$8`.
+
+I don't like it either.
+
 ### Running your own
 
 If you have custom data in another CSV in the same format,
